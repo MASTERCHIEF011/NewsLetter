@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./josh-rose-trYl7JYATH0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 code {

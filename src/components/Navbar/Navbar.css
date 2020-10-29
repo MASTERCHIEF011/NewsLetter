@@ -1,0 +1,39 @@
+.NavbarItems{
+
+    background: linear-gradient(90deg, rgb(254, 94, 214) 0%, rgb(167, 63, 252));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.navbar-logo{
+    justify-self: start;
+    margin-left: 20px;
+}
+.fa-newspaper{
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+}   
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-left: 2rem;
+}
+.nav-Links{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.nav-Links:hover{
+    background-color:rgb(204, 161, 183);
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+.fa-bars {
+    color: #ffff;
+}
